@@ -1,0 +1,261 @@
+html{
+    height: 100%;
+}
+
+body{
+              background-image: url(../images/background.jpg);
+              font-family: 'Montserrat', sans-serif;
+              
+            
+          }
+          
+          body img{
+
+            opacity: 100%;
+          }
+          .headerImage{
+              
+              width:100;
+              height: auto;
+              padding-left:5%; 
+            
+          }
+          .navbar{
+              
+              background-color:#CD4616;
+              height: 30%;
+              
+             
+          }
+          .navbar-toggler{
+              height: 10%;
+              color: white;
+
+
+          }
+          .navbar-toggler-icon{
+              
+              color:white;
+              margin-top: -25px;
+          }
+          
+
+          .carousel-item{
+               padding-top:2%;
+              align-content: center;
+               
+          }
+
+.Events{
+    /*border: solid 5px #CD4616;*/
+    background-color:#FFFFFF; 
+    padding-left:10px; 
+    margin:30px;
+    
+}
+.Events h2{
+     color:#CD4616;
+    text-align: center;
+    padding-top:30px;
+}
+.Events h5{
+    font-weight: 800;
+    padding-left: 20px;
+}
+.Events h5,p{
+    
+    color:#CD4616; 
+    padding-top:20px;
+}
+.Events p{
+    font-size:20px; 
+    padding-left: 10px;
+}
+.Events img{
+    
+    padding: 5px;
+    padding-bottom: 5px;
+}
+         
+
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color:#FFFFFF;
+  color: #A83107; 
+    text-align: center;
+}
+
+/*--------------Photos--------------------*/
+
+#heading {
+    color:#CD4616; 
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+} 
+.Photos hr{
+ background-color:#CD4616;
+    height:3px;
+}
+  .textWithBlurredBg{
+    width:300px;
+    height:200px;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+    margin:4px;
+  }
+  
+  .textWithBlurredBg img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBg:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px cyan;
+  }
+   
+  .textWithBlurredBg :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textWithBlurredBg h3{
+    top:50%
+  }
+  
+  .textWithBlurredBg:hover :not(img){
+    opacity:1;
+  }
+
+/*---------------Shlokas-------------*/
+
+#ShlokaHeading{
+    
+   padding: 30px;
+    color: #CD4616;
+}
+
+#ShlokaLanguage{
+    
+   color: #CD4616;
+    
+}
+
+.Shlokas{
+    
+    background-color:#FFFFFF; 
+}
+
+
+/*Eminent Saints*/
+
+#PageHeading{
+    
+    text-align: center;
+    color: #CD4616;
+    padding: 30px;
+    font-size: 45px;    
+}
+
+#AccordionImage{
+    
+    padding-top: 10px;
+}
+#AccordianHeading{
+    color: #CD4616;
+    font-weight: 500;
+}
+
+/*-----------------------Pooja----------------------*/
+
+
+.Table h3{
+    
+    color:#CD4616; 
+    padding-top: 20px;
+    padding-bottom: -10px;
+}
+
+.Table{
+    
+    background-color: #FFFFFF;
+
+}
+.table > thead > tr > th{
+     color:#CD4616!important;
+    
+}
+.table > tbody > tr > th{
+     color:#CD4616!important;
+    
+}
+.table > tbody > tr > td{
+     color:#CD4616!important;
+    font-weight: 800;
+    
+}
+
+/*-------------------------------Contact-------------------------*/
+
+
+#contact{
+    color:#CD4616; 
+    text-decoration: none;
+    background-color:#FFFFFF; 
+    font-weight: 800;
+    padding-left: auto;
+    padding-right: auto;
+   margin-top: 20px;
+    border: 2px solid #CD4616;
+}
+
+#contact p{
+    font-size: 20px;  
+    padding-left: -30px;
+}
+#contact a{
+    text-decoration: none;
+    color:#CD4616; 
+}
+#contact a:hover{
+    text-decoration: none;
+    color:blue; 
+}
+
+
+/*-------------------------------Payments-------------------------*/
+
+
+ 
+          #donation{
+              height: 30%;
+              padding: 2%;
+              margin: 5%;
+              text-align: center;
+              color:#CD4616;
+              border: solid 5px;
+              border-color:#CD4616;
+              font-weight: 800;
+              background-color:#FFFFFF;
+              }
+          p h4{
+              
+            
+          }
